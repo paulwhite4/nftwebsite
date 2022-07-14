@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;900&display=swap');
+$primary:#3562FF;
+$secondary:#FFAB4D;
+$yellow:#FFB830;
+$darkblue:#0F182E;
+$mainbg:rgba(2, 5, 14, 1);
+$button-bg:#1E50FF;
+
+h1{
+    font-size: 4.5rem;
+    line-height: 6rem;
+}
+h2{
+    font-size: 4rem;
+    line-height: 5rem;
+}
+h3{
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+p{
+    &.large{
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+    &.medium{
+        font-size:0.875rem;
+        line-height: 1.5rem;
+    }
+    &.small{
+        font-size:0.75rem;
+        line-height: 1.5rem;
+    }
+}
+.bold{
+    font-weight: 700;
+}
+.semi-bold{
+    font-weight: 600;
+}
+.medium{
+    font-weight: 500;
+}
+.regular{
+    font-weight: 400;
+}

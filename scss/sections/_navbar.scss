@@ -1,0 +1,21 @@
+// .logo_wrapper{
+//     max-width: 21.188rem;
+// }
+// .menu_wrapper{
+//     max-width: 42.813rem;
+// }
+.navbar{
+    padding-top: 40px;
+    .nav_list{
+        display: flex;
+        &--item{
+            color: white;
+            list-style-type: none;
+            padding: 0 2rem 0 0;
+            a{
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }    
+}

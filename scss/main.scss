@@ -1,0 +1,9 @@
+@use './variables' as *;
+@use './grid';
+@use './sections/navbar.scss';
+@use './components/buttons' as *;
+@use './sections/slider';
+body{
+    background-color: $mainbg;
+    font-family: 'Poppins', sans-serif;
+}
