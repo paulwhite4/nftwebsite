@@ -14,6 +14,21 @@ h3 {
   line-height: 4rem;
 }
 
+h4 {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+h6 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 p.large {
   font-size: 1rem;
   line-height: 2rem;
@@ -106,6 +121,7 @@ p.small {
 
 .slider {
   margin-top: 88px;
+  margin-bottom: 48px;
 }
 .slider .slider_content--wrapper {
   margin-right: 48px;
@@ -115,6 +131,35 @@ p.small {
 }
 .slider .slider_content--wrapper p {
   color: rgb(173, 185, 199);
+}
+
+.partners {
+  margin-top: 72px;
+}
+.partners .partners_wrapper {
+  margin-right: 2.625rem;
+}
+
+.nft {
+  margin-top: 150px;
+  margin-bottom: 160px;
+}
+.nft h3 {
+  text-align: center;
+  color: white;
+}
+.nft .nft_wrapper {
+  text-align: center;
+  padding: 56px 46px 56px 32px;
+  margin-right: 26px;
+  border-radius: 16px;
+  background-color: #272D37;
+}
+.nft .nft_wrapper h5 {
+  color: white;
+}
+.nft .nft_wrapper p {
+  color: #ADB9C7;
 }
 
 body {

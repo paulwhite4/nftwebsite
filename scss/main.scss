@@ -3,6 +3,8 @@
 @use './sections/navbar.scss';
 @use './components/buttons' as *;
 @use './sections/slider';
+@use './sections/partners';
+@use './sections/nft';
 body{
     background-color: $mainbg;
     font-family: 'Poppins', sans-serif;
