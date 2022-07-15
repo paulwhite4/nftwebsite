@@ -1,0 +1,35 @@
+.footer{
+    .navbar{
+        padding-top: 0;
+    }
+    .footer_wrapper{
+        margin-right: 88px;
+        h5{
+            margin-top: 0;
+            color: #ffffff;
+        }
+        p{
+            color: #ADB9C7;
+        }
+        
+         .nav_list{
+            flex-direction: column;
+            margin: 0;
+            padding: 0;
+            &--link{
+                margin-bottom: 32px;
+                list-style-type: none;
+
+                a{
+                    color: #ADB9C7;
+                    text-decoration: none;
+                }
+            }
+        }
+        &--icons{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+}

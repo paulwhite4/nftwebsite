@@ -271,6 +271,38 @@ p.small {
   color: white;
 }
 
+.footer .navbar {
+  padding-top: 0;
+}
+.footer .footer_wrapper {
+  margin-right: 88px;
+}
+.footer .footer_wrapper h5 {
+  margin-top: 0;
+  color: #ffffff;
+}
+.footer .footer_wrapper p {
+  color: #ADB9C7;
+}
+.footer .footer_wrapper .nav_list {
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+.footer .footer_wrapper .nav_list--link {
+  margin-bottom: 32px;
+  list-style-type: none;
+}
+.footer .footer_wrapper .nav_list--link a {
+  color: #ADB9C7;
+  text-decoration: none;
+}
+.footer .footer_wrapper--icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 body {
   background-color: rgb(2, 5, 14);
   font-family: "Poppins", sans-serif;

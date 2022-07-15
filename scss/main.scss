@@ -8,6 +8,7 @@
 @use './sections/auctions';
 @use './sections/artist';
 @use './sections/create';
+@use './sections/footer';
 body{
     background-color: $mainbg;
     font-family: 'Poppins', sans-serif;
