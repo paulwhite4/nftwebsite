@@ -8,6 +8,7 @@
     font-size: 1rem;
     font-weight: 600;
     line-height: 2rem;
+    cursor: pointer;
 }
 .slider_button{
     padding: 12px 16px;
@@ -17,6 +18,7 @@
     font-weight: 600;
     line-height: 2rem;
     border-radius: 16px;
+    cursor: pointer;
 }
 .auctions_button{
     min-width: 129px;
@@ -30,4 +32,16 @@
     background-repeat: 16px;
     border: none;
     box-shadow: 8px 8px 18px rgba(30, 80, 255, 0.25);
+    cursor: pointer;
+}
+.create_button{
+    margin-top: 40px;
+    padding: 16px 40px;
+    color: #1E50FF;
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: 700;
+    border: none;
+    background-color: #ffffff;
+    border-radius: 16px;
 }

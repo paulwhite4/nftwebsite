@@ -1,0 +1,17 @@
+.create{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    .create_wrapper{
+        text-align: center;
+        border-radius: 16px;
+        background-color: #1E50FF;
+        backdrop-filter: blur(74px);
+        padding: 48px 205px;
+        h3{
+            color: white;
+        }
+        p{
+            color: white;
+        }
+    }
+}

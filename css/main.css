@@ -107,6 +107,7 @@ p.small {
   font-size: 1rem;
   font-weight: 600;
   line-height: 2rem;
+  cursor: pointer;
 }
 
 .slider_button {
@@ -117,6 +118,7 @@ p.small {
   font-weight: 600;
   line-height: 2rem;
   border-radius: 16px;
+  cursor: pointer;
 }
 
 .auctions_button {
@@ -131,6 +133,19 @@ p.small {
   background-repeat: 16px;
   border: none;
   box-shadow: 8px 8px 18px rgba(30, 80, 255, 0.25);
+  cursor: pointer;
+}
+
+.create_button {
+  margin-top: 40px;
+  padding: 16px 40px;
+  color: #1E50FF;
+  font-size: 1rem;
+  line-height: 2rem;
+  font-weight: 700;
+  border: none;
+  background-color: #ffffff;
+  border-radius: 16px;
 }
 
 .slider {
@@ -189,6 +204,7 @@ p.small {
 }
 .auctions .auctions_wrapper {
   margin-right: 24px;
+  margin-bottom: 56px;
   padding: 24px;
   border-radius: 24px;
   background-color: #272D37;
@@ -234,6 +250,24 @@ p.small {
 }
 .artist .artist_wrapper h5, .artist .artist_wrapper h6 {
   margin: 8px 0;
+  color: white;
+}
+
+.create {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+.create .create_wrapper {
+  text-align: center;
+  border-radius: 16px;
+  background-color: #1E50FF;
+  backdrop-filter: blur(74px);
+  padding: 48px 205px;
+}
+.create .create_wrapper h3 {
+  color: white;
+}
+.create .create_wrapper p {
   color: white;
 }
 
