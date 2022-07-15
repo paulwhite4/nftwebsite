@@ -1,0 +1,39 @@
+.auctions{
+    .auctions_heading{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h3{
+            color: white;
+        }
+        button{
+            width: 176px;
+        }
+
+    }
+    .auctions_wrapper{
+        margin-right: 24px;
+        padding: 24px;
+        border-radius: 24px;
+        background-color: #272D37;
+        &--quote{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            h6{
+                margin: 0;
+                color: white;
+            }
+            p{
+                color: #ADB9C7;
+            }
+            .auctions_id, .auctions_timer{
+                display: flex;
+                align-items: center;
+                p{
+                    margin-left: 8px;
+                }
+            }
+        }
+    }
+}

@@ -119,6 +119,20 @@ p.small {
   border-radius: 16px;
 }
 
+.auctions_button {
+  min-width: 129px;
+  padding: 8px 16px;
+  border-radius: 16px;
+  background: #1E50FF;
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 2rem;
+  background-repeat: 16px;
+  border: none;
+  box-shadow: 8px 8px 18px rgba(30, 80, 255, 0.25);
+}
+
 .slider {
   margin-top: 88px;
   margin-bottom: 48px;
@@ -160,6 +174,43 @@ p.small {
 }
 .nft .nft_wrapper p {
   color: #ADB9C7;
+}
+
+.auctions .auctions_heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.auctions .auctions_heading h3 {
+  color: white;
+}
+.auctions .auctions_heading button {
+  width: 176px;
+}
+.auctions .auctions_wrapper {
+  margin-right: 24px;
+  padding: 24px;
+  border-radius: 24px;
+  background-color: #272D37;
+}
+.auctions .auctions_wrapper--quote {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.auctions .auctions_wrapper--quote h6 {
+  margin: 0;
+  color: white;
+}
+.auctions .auctions_wrapper--quote p {
+  color: #ADB9C7;
+}
+.auctions .auctions_wrapper--quote .auctions_id, .auctions .auctions_wrapper--quote .auctions_timer {
+  display: flex;
+  align-items: center;
+}
+.auctions .auctions_wrapper--quote .auctions_id p, .auctions .auctions_wrapper--quote .auctions_timer p {
+  margin-left: 8px;
 }
 
 body {
