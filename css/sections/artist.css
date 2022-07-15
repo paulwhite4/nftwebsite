@@ -1,0 +1,23 @@
+.artist {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+.artist .artist_heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.artist .artist_heading h3 {
+  color: white;
+}
+.artist .artist_heading button {
+  width: 176px;
+}
+.artist .artist_wrapper {
+  text-align: center;
+  margin-right: 40px;
+}
+.artist .artist_wrapper h5, .artist .artist_wrapper h6 {
+  margin: 8px 0;
+  color: white;
+}

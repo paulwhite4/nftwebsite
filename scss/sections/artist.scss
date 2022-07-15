@@ -1,0 +1,23 @@
+.artist{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    .artist_heading{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h3{
+            color: white;
+        }
+        button{
+            width: 176px;
+        }
+    }
+    .artist_wrapper{
+        text-align: center;
+        margin-right: 40px;
+        h5, h6{
+            margin: 8px 0;
+            color: white;
+        }
+    }
+}
